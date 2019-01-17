@@ -16,6 +16,7 @@ import expo.core.interfaces.SingletonModule;
 import expo.modules.constants.ConstantsPackage;
 import expo.modules.filesystem.FileSystemPackage;
 import expo.modules.permissions.PermissionsPackage;
+import expo.modules.localization.LocalizationPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,7 +26,8 @@ public class MainApplication extends Application implements ReactApplication {
      new ReactAdapterPackage(),
      new ConstantsPackage(),
      new PermissionsPackage(),
-     new FileSystemPackage()
+     new FileSystemPackage(),
+     new LocalizationPackage()
   ), Arrays.<SingletonModule>asList());
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {

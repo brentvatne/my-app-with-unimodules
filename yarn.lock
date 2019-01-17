@@ -2016,6 +2016,16 @@ expo-image-loader-interface@~2.0.0:
   dependencies:
     expo-core "~2.0.0"
 
+expo-localization@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/expo-localization/-/expo-localization-2.0.0.tgz#d7b9b44585d5bb70691c6b62ebde6b00d8535a0e"
+  integrity sha512-QDs76ZWi8zf/Zbt9EG/ToQ8qQv3Z8GsjPVFT3J0idikpuMIPhqKSZLYOkiXpTuOhh5I1CGfIiXCqkQX77n8l7A==
+  dependencies:
+    expo-core "~2.0.0"
+    moment "^2.22.2"
+    moment-timezone "^0.5.23"
+    rtl-detect "^1.0.2"
+
 expo-permissions-interface@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions-interface/-/expo-permissions-interface-2.0.0.tgz#563fd815925fd472a1b04f292afc9bef77f14774"
@@ -4054,6 +4064,18 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment-timezone@^0.5.23:
+  version "0.5.23"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
+  integrity sha512-WHFH85DkCfiNMDX5D3X7hpNH3/PUhjTGcD0U1SgfBGZxJ3qUmJh5FdvaFjcClxOvB3rzdfj4oRffbI38jEnC1w==
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.22.2:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.23.0.tgz#759ea491ac97d54bac5ad776996e2a58cc1bc225"
+  integrity sha512-3IE39bHVqFbWWaPOMHZF98Q9c3LDKGTmypMiTM2QygGXXElkFWIH7GxfmlwmY2vwa+wmNsoYZmG2iusf1ZjJoA==
+
 morgan@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.1.tgz#0a8d16734a1d9afbc824b99df87e738e58e2da59"
@@ -4713,10 +4735,10 @@ react-is@^16.6.3:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
   integrity sha512-Z0VRQdF4NPDoI0tsXVMLkJLiwEBa+RP66g0xDHxgxysxSoCUccSten4RTF/UFvZF1dZvZ9Zu1sx+MDXwcOR34g==
 
-react-native-universal-modules@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/react-native-universal-modules/-/react-native-universal-modules-0.0.2.tgz#6b28bbbac70796d00fc846982d35362e5a717704"
-  integrity sha512-VBNCCciy2wke5fICt5LLi2DyxIm3FqmufLRD14CYBGPREzVuiC4ETAMLBDHrc+4dgS8nY9+ialgZTAI8O7gfWw==
+react-native-universal-modules@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-universal-modules/-/react-native-universal-modules-0.0.3.tgz#7b2f95b98a234e2bd73987884d246c35613875ed"
+  integrity sha512-h3TE9v0Lw6tWscysWYwMM0p0GuhYEeCemgpnzMnNYLtlyVHDYFTLDlwOPlFYUhAQ30EgSzNR8hnrJhtJ3YPqKA==
   dependencies:
     expo-asset "^2.0.0"
     expo-barcode-scanner-interface "~2.0.0"
@@ -5088,6 +5110,11 @@ rsvp@^3.3.3:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-3.6.2.tgz#2e96491599a96cde1b515d5674a8f7a91452926a"
   integrity sha512-OfWGQTb9vnwRjwtA2QwpG2ICclHC3pgXZO5xt8H2EfgDquO0qVdSb5T88L4qJVAEugbS56pAuV4XZM58UX8ulw==
+
+rtl-detect@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/rtl-detect/-/rtl-detect-1.0.2.tgz#8eca316f5c6563d54df4e406171dd7819adda67f"
+  integrity sha512-5X1422hvphzg2a/bo4tIDbjFjbJUOaPZwqE6dnyyxqwFqfR+tBcvfqapJr0o0VygATVCGKiODEewhZtKF+90AA==
 
 run-async@^2.2.0:
   version "2.3.0"

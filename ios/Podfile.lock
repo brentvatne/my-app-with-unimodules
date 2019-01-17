@@ -22,6 +22,8 @@ PODS:
     - EXCore
   - EXImageLoaderInterface (2.0.0):
     - EXCore
+  - EXLocalization (2.0.0):
+    - EXCore
   - EXPermissions (2.0.0):
     - EXCore
     - EXPermissionsInterface
@@ -91,6 +93,7 @@ DEPENDENCIES:
   - EXFileSystemInterface (from `../node_modules/expo-file-system-interface/ios`)
   - EXFontInterface (from `../node_modules/expo-font-interface/ios`)
   - EXImageLoaderInterface (from `../node_modules/expo-image-loader-interface/ios`)
+  - EXLocalization (from `../node_modules/expo-localization/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
   - EXPermissionsInterface (from `../node_modules/expo-permissions-interface/ios`)
   - EXReactNativeAdapter (from `../node_modules/expo-react-native-adapter/ios`)
@@ -135,6 +138,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-font-interface/ios"
   EXImageLoaderInterface:
     :path: "../node_modules/expo-image-loader-interface/ios"
+  EXLocalization:
+    :path: "../node_modules/expo-localization/ios"
   EXPermissions:
     :path: "../node_modules/expo-permissions/ios"
   EXPermissionsInterface:
@@ -167,6 +172,7 @@ SPEC CHECKSUMS:
   EXFileSystemInterface: 8e1225e4e1776ea7abf997a7ded593b4b8e86863
   EXFontInterface: 06126ec4f6a67415426074c3383a82b241f087c1
   EXImageLoaderInterface: 3f460f6ff344ba6c4e00621806c0d1d76249cd8f
+  EXLocalization: 1243adc132eaad4793dd7e5b497135ad5d803441
   EXPermissions: dd31cb432c078eed1f4c1e290bc32649d5280bd3
   EXPermissionsInterface: 76f80a0dcd16afde36498e3d3aa168cb43999558
   EXReactNativeAdapter: 253efa069b53a6c8be7c3f2afd49ef6b4e97e902
@@ -177,6 +183,6 @@ SPEC CHECKSUMS:
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 74dbefe79ab66761fae634a419b687a5115db2a4
+PODFILE CHECKSUM: 126c842ed4e8376337d91c1d9a356f16c9598cb1
 
 COCOAPODS: 1.5.3
