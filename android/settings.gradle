@@ -1,0 +1,4 @@
+apply from: '../node_modules/react-native-universal-modules/settings.gradle'
+rootProject.name = 'MyApp'
+
+include ':app'

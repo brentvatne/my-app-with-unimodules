@@ -1,0 +1,182 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - EXBarCodeScannerInterface (2.0.0):
+    - EXCore
+  - EXCameraInterface (2.0.0):
+    - EXCore
+  - EXConstants (2.0.0):
+    - EXConstantsInterface
+    - EXCore
+  - EXConstantsInterface (2.0.0):
+    - EXCore
+  - EXCore (2.0.0)
+  - EXFaceDetectorInterface (2.0.0):
+    - EXCore
+  - EXFileSystem (2.0.0):
+    - EXCore
+    - EXFileSystemInterface
+  - EXFileSystemInterface (2.0.0):
+    - EXCore
+  - EXFontInterface (2.0.0):
+    - EXCore
+  - EXImageLoaderInterface (2.0.0):
+    - EXCore
+  - EXPermissions (2.0.0):
+    - EXCore
+    - EXPermissionsInterface
+  - EXPermissionsInterface (2.0.0):
+    - EXCore
+  - EXReactNativeAdapter (2.0.0):
+    - EXCore
+    - EXFontInterface
+    - React
+  - EXSensorsInterface (2.0.0):
+    - EXCore
+  - EXTaskManagerInterface (1.0.0):
+    - EXCore
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - React (0.57.8):
+    - React/Core (= 0.57.8)
+  - React/Core (0.57.8):
+    - yoga (= 0.57.8.React)
+  - React/CxxBridge (0.57.8):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.57.8):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.57.8):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.8)
+  - React/jschelpers (0.57.8):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.57.8)
+  - React/PrivateDatabase (0.57.8)
+  - React/RCTAnimation (0.57.8):
+    - React/Core
+  - React/RCTBlob (0.57.8):
+    - React/Core
+  - React/RCTImage (0.57.8):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.57.8):
+    - React/Core
+  - React/RCTText (0.57.8):
+    - React/Core
+  - React/RCTWebSocket (0.57.8):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.57.8.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - EXBarCodeScannerInterface (from `../node_modules/expo-barcode-scanner-interface/ios`)
+  - EXCameraInterface (from `../node_modules/expo-camera-interface/ios`)
+  - EXConstants (from `../node_modules/expo-constants/ios`)
+  - EXConstantsInterface (from `../node_modules/expo-constants-interface/ios`)
+  - EXCore (from `../node_modules/expo-core/ios`)
+  - EXFaceDetectorInterface (from `../node_modules/expo-face-detector-interface/ios`)
+  - EXFileSystem (from `../node_modules/expo-file-system/ios`)
+  - EXFileSystemInterface (from `../node_modules/expo-file-system-interface/ios`)
+  - EXFontInterface (from `../node_modules/expo-font-interface/ios`)
+  - EXImageLoaderInterface (from `../node_modules/expo-image-loader-interface/ios`)
+  - EXPermissions (from `../node_modules/expo-permissions/ios`)
+  - EXPermissionsInterface (from `../node_modules/expo-permissions-interface/ios`)
+  - EXReactNativeAdapter (from `../node_modules/expo-react-native-adapter/ios`)
+  - EXSensorsInterface (from `../node_modules/expo-sensors-interface/ios`)
+  - EXTaskManagerInterface (from `../node_modules/expo-task-manager-interface/ios`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  EXBarCodeScannerInterface:
+    :path: "../node_modules/expo-barcode-scanner-interface/ios"
+  EXCameraInterface:
+    :path: "../node_modules/expo-camera-interface/ios"
+  EXConstants:
+    :path: "../node_modules/expo-constants/ios"
+  EXConstantsInterface:
+    :path: "../node_modules/expo-constants-interface/ios"
+  EXCore:
+    :path: "../node_modules/expo-core/ios"
+  EXFaceDetectorInterface:
+    :path: "../node_modules/expo-face-detector-interface/ios"
+  EXFileSystem:
+    :path: "../node_modules/expo-file-system/ios"
+  EXFileSystemInterface:
+    :path: "../node_modules/expo-file-system-interface/ios"
+  EXFontInterface:
+    :path: "../node_modules/expo-font-interface/ios"
+  EXImageLoaderInterface:
+    :path: "../node_modules/expo-image-loader-interface/ios"
+  EXPermissions:
+    :path: "../node_modules/expo-permissions/ios"
+  EXPermissionsInterface:
+    :path: "../node_modules/expo-permissions-interface/ios"
+  EXReactNativeAdapter:
+    :path: "../node_modules/expo-react-native-adapter/ios"
+  EXSensorsInterface:
+    :path: "../node_modules/expo-sensors-interface/ios"
+  EXTaskManagerInterface:
+    :path: "../node_modules/expo-task-manager-interface/ios"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  EXBarCodeScannerInterface: 4453aa03ca1e0a1c9b320aaf4ce5b7d88064d192
+  EXCameraInterface: 6d990173e3f6355e575f44b38dcf61d0c90bc47e
+  EXConstants: 4ab8da18840ebae518e15541164fbaf7907e58c2
+  EXConstantsInterface: c60c068f94b78c8805bfeb35bd2bbaf859293de5
+  EXCore: 81304a0284b7f2e0f691b8a6bc642854e730f5e2
+  EXFaceDetectorInterface: 8727fe51fbd189a94ccd70152a25cdef913a0ae5
+  EXFileSystem: 0872826fd9ebc7d842a5e389b088c93f5b9fab88
+  EXFileSystemInterface: 8e1225e4e1776ea7abf997a7ded593b4b8e86863
+  EXFontInterface: 06126ec4f6a67415426074c3383a82b241f087c1
+  EXImageLoaderInterface: 3f460f6ff344ba6c4e00621806c0d1d76249cd8f
+  EXPermissions: dd31cb432c078eed1f4c1e290bc32649d5280bd3
+  EXPermissionsInterface: 76f80a0dcd16afde36498e3d3aa168cb43999558
+  EXReactNativeAdapter: 253efa069b53a6c8be7c3f2afd49ef6b4e97e902
+  EXSensorsInterface: 9e845bc03ad23a846fa6bcd4e2a60f1d0b1a6906
+  EXTaskManagerInterface: f9869b0f902ba7ccead16e0768c6dd75603163e0
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 74dbefe79ab66761fae634a419b687a5115db2a4
+
+COCOAPODS: 1.5.3
