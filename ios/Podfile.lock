@@ -5,7 +5,7 @@ PODS:
     - EXCore
   - EXCameraInterface (2.0.0):
     - EXCore
-  - EXConstants (2.0.0):
+  - EXConstants (2.0.1):
     - EXConstantsInterface
     - EXCore
   - EXConstantsInterface (2.0.0):
@@ -13,7 +13,7 @@ PODS:
   - EXCore (2.0.0)
   - EXFaceDetectorInterface (2.0.0):
     - EXCore
-  - EXFileSystem (2.0.0):
+  - EXFileSystem (2.0.1-rc.0):
     - EXCore
     - EXFileSystemInterface
   - EXFileSystemInterface (2.0.0):
@@ -190,6 +190,6 @@ SPEC CHECKSUMS:
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 7ddd688abe987e98ab83d4d10c5ca68403d10dfc
+PODFILE CHECKSUM: c436b0f23e452c1d6e33e6fbc63c00dee5a1e840
 
 COCOAPODS: 1.5.3

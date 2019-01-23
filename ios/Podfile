@@ -1,5 +1,4 @@
 platform :ios, '10.0'
-require_relative '../node_modules/react-native-universal-modules/podfile-macro'
 
 target 'MyApp' do
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
@@ -18,7 +17,21 @@ target 'MyApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  use_universal_modules!
+  pod 'EXCore', path: '../node_modules/expo-core/ios'
+  pod 'EXReactNativeAdapter', path: '../node_modules/expo-react-native-adapter/ios', inhibit_warnings: true
+  pod 'EXFontInterface', path: '../node_modules/expo-font-interface/ios'
+  pod 'EXImageLoaderInterface', path: '../node_modules/expo-image-loader-interface/ios'
+  pod 'EXConstantsInterface', path: '../node_modules/expo-constants-interface/ios'
+  pod 'EXSensorsInterface', path: '../node_modules/expo-sensors-interface/ios'
+  pod 'EXConstants', path: '../node_modules/expo-constants/ios'
+  pod 'EXFileSystem', path: '../node_modules/expo-file-system/ios'
+  pod 'EXFileSystemInterface', path: '../node_modules/expo-file-system-interface/ios'
+  pod 'EXPermissionsInterface', path: '../node_modules/expo-permissions-interface/ios'
+  pod 'EXPermissions', path: '../node_modules/expo-permissions/ios'
+  pod 'EXCameraInterface', path: '../node_modules/expo-camera-interface/ios'
+  pod 'EXFaceDetectorInterface', path: '../node_modules/expo-face-detector-interface/ios'
+  pod 'EXBarCodeScannerInterface', path: '../node_modules/expo-barcode-scanner-interface/ios'
+  pod 'EXTaskManagerInterface', path: '../node_modules/expo-task-manager-interface/ios'
   pod 'EXLocalization', path: '../node_modules/expo-localization/ios'
   pod 'EXFont', path: '../node_modules/expo-font/ios'
 

@@ -1938,7 +1938,7 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-asset@^2.0.0:
+expo-asset@2.0.0, expo-asset@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-2.0.0.tgz#c4a1d44ccf1d321b505e437d1582dd2d382995e2"
   integrity sha512-8E/vQ/grJl1OX2lkzChbQJWsynIRupkxR0r8RMJ0js+MfDtmyi3m4lVzY4AjUz/y7KJ9XpldKjsqerFWb/Nmew==
@@ -1974,6 +1974,14 @@ expo-constants@2.0.0:
     ua-parser-js "^0.7.19"
     uuid "^3.3.2"
 
+expo-constants@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-2.0.1.tgz#f3090e206da7c580c8dbb16178f918a8110644c2"
+  integrity sha512-OIT1afOYYSpDxnnTp5jNXNB2nfnbmykLT+fLaKTu60VdtrO0sr20eB30YwuALU7n/xSYM/xKPsP8jDCzq40YLw==
+  dependencies:
+    ua-parser-js "^0.7.19"
+    uuid "^3.3.2"
+
 expo-core@2.0.0, expo-core@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-2.0.0.tgz#374e297add4386296b9cdc429ceeaa5797212a24"
@@ -1993,6 +2001,15 @@ expo-file-system-interface@~2.0.0:
   dependencies:
     expo-core "~2.0.0"
 
+expo-file-system@2.0.1-rc.0:
+  version "2.0.1-rc.0"
+  resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-2.0.1-rc.0.tgz#69f0a61c4ac18f396feca21afb580b119287c00a"
+  integrity sha512-eQASxJL8ZgkpkYHyw0ylVz55tJiYJ65CyJluoy9cjyS0zj2FbiBUlEPh3Sv5e9avzLNE+kbuLNkyl7Iv5Db3yQ==
+  dependencies:
+    expo-core "~2.0.0"
+    expo-file-system-interface "~2.0.0"
+    uuid-js "^0.7.5"
+
 expo-file-system@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-2.0.0.tgz#96da55dd03dab88e4ae32bfd5237aaa810ab33f0"
@@ -2008,6 +2025,13 @@ expo-font-interface@~2.0.0:
   integrity sha512-5tEGjUwOLd5h6vTR3xfNc6jXTRKzLVnGpIjns+L2aArIIktmlZU3Y/gzueY8AkB6J6SB5DYSLlybp5kQrUOImw==
   dependencies:
     expo-core "~2.0.0"
+
+expo-font@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-2.0.0.tgz#0b1e21084a678ddb7fafd16a4b02dcd9bb325963"
+  integrity sha512-0o79ON0aQQCcA3OXXnRllGGnFFfDXXe2QB/IIGrksD5UL8MPwhLWAsD3ZsZJYgo3H6tE/i8moB2zQ1i2Q/4pNg==
+  dependencies:
+    invariant "^2.2.2"
 
 expo-image-loader-interface@~2.0.0:
   version "2.0.0"
@@ -4735,7 +4759,7 @@ react-is@^16.6.3:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
   integrity sha512-Z0VRQdF4NPDoI0tsXVMLkJLiwEBa+RP66g0xDHxgxysxSoCUccSten4RTF/UFvZF1dZvZ9Zu1sx+MDXwcOR34g==
 
-react-native-universal-modules@0.0.3:
+react-native-universal-modules@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/react-native-universal-modules/-/react-native-universal-modules-0.0.3.tgz#7b2f95b98a234e2bd73987884d246c35613875ed"
   integrity sha512-h3TE9v0Lw6tWscysWYwMM0p0GuhYEeCemgpnzMnNYLtlyVHDYFTLDlwOPlFYUhAQ30EgSzNR8hnrJhtJ3YPqKA==

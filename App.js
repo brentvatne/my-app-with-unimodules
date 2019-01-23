@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   },
   quote:{
     fontSize: 16,
-    //fontFamily: "IndieFlower",
+    fontFamily: "IndieFlower",
     margin: 10
   },
   welcome: {
