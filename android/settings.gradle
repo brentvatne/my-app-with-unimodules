@@ -11,6 +11,9 @@ project(':expo-react-native-adapter').projectDir = new File(rootProject.projectD
 include ':expo-sensors-interface'
 project(':expo-sensors-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-sensors-interface/android')
 
+include ':expo-font'
+project(':expo-font').projectDir = new File(rootProject.projectDir, '../node_modules/expo-font/android')
+
 include ':expo-font-interface'
 project(':expo-font-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-font-interface/android')
 

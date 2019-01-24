@@ -15,6 +15,7 @@ import expo.core.interfaces.Package;
 import expo.core.interfaces.SingletonModule;
 import expo.modules.constants.ConstantsPackage;
 import expo.modules.filesystem.FileSystemPackage;
+import expo.modules.font.FontLoaderPackage;
 import expo.modules.permissions.PermissionsPackage;
 import expo.modules.localization.LocalizationPackage;
 
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
      new ConstantsPackage(),
      new PermissionsPackage(),
      new FileSystemPackage(),
+     new FontLoaderPackage(),
      new LocalizationPackage()
   ), Arrays.<SingletonModule>asList());
 
