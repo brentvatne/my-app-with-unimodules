@@ -40,6 +40,7 @@
 		8BA1C0F2AA63554E1D484DC7 /* libPods-MyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29303F0B37679EF61C18F6D8 /* libPods-MyAppTests.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		9D2665310FEB47A299E9E74A /* IndieFlower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F5A81884344FFFA2E19C83 /* IndieFlower.ttf */; };
+		C87FD2BC1FED4741A33DA101 /* SiviShapeIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0475A80064A64354BD836D6B /* SiviShapeIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -352,6 +353,7 @@
 		CDD16551D9F0FBC17D8548DB /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2FFDAA29C036E9DA2FBDDA /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F2F5A81884344FFFA2E19C83 /* IndieFlower.ttf */ = {isa = PBXFileReference; name = "IndieFlower.ttf"; path = "../assets/fonts/IndieFlower.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0475A80064A64354BD836D6B /* SiviShapeIcons.ttf */ = {isa = PBXFileReference; name = "SiviShapeIcons.ttf"; path = "../assets/fonts/SiviShapeIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -633,6 +635,7 @@
 			isa = "PBXGroup";
 			children = (
 				F2F5A81884344FFFA2E19C83 /* IndieFlower.ttf */,
+				0475A80064A64354BD836D6B /* SiviShapeIcons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1087,6 +1090,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				9D2665310FEB47A299E9E74A /* IndieFlower.ttf in Resources */,
+				C87FD2BC1FED4741A33DA101 /* SiviShapeIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

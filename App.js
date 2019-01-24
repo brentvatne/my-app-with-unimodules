@@ -42,6 +42,7 @@ export default class App extends Component<Props> {
     await Font.loadAsync({
         //Typography
         IndieFlower: require("./assets/fonts/IndieFlower.ttf"),
+        SiviShapeIcons: require("./assets/fonts/SiviShapeIcons.ttf")
     })
   }
 }
