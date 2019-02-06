@@ -17,6 +17,7 @@ import expo.modules.constants.ConstantsPackage;
 import expo.modules.filesystem.FileSystemPackage;
 import expo.modules.permissions.PermissionsPackage;
 import expo.modules.localization.LocalizationPackage;
+import expo.modules.font.FontLoaderPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -27,7 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
      new ConstantsPackage(),
      new PermissionsPackage(),
      new FileSystemPackage(),
-     new LocalizationPackage()
+     new LocalizationPackage(),
+     new FontLoaderPackage()
   ), Arrays.<SingletonModule>asList());
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {

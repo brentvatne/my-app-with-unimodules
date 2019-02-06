@@ -1,7 +1,12 @@
-apply from: '../node_modules/react-native-universal-modules/settings.gradle'
+apply from: "../node_modules/@universal-modules/react-native-platform/settings.gradle"
+useUniversalModules.apply()
+
 rootProject.name = 'MyApp'
 
 include ':app'
 
 include ':expo-localization'
 project(':expo-localization').projectDir = new File(rootProject.projectDir, '../node_modules/expo-localization/android')
+
+include ':expo-font'
+project(':expo-font').projectDir = new File(rootProject.projectDir, '../node_modules/expo-font/android')

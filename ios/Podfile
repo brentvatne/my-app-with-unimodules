@@ -1,5 +1,5 @@
 platform :ios, '10.0'
-require_relative '../node_modules/react-native-universal-modules/podfile-macro'
+require_relative '../node_modules/@universal-modules/react-native-platform/podfile-macro'
 
 target 'MyApp' do
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
@@ -20,6 +20,7 @@ target 'MyApp' do
 
   use_universal_modules!
   pod 'EXLocalization', path: '../node_modules/expo-localization/ios'
+  pod 'EXFont', path: '../node_modules/expo-font/ios'
 
   target 'MyAppTests' do
     inherit! :search_paths
