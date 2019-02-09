@@ -168,28 +168,28 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
-  EXBarCodeScannerInterface: 4453aa03ca1e0a1c9b320aaf4ce5b7d88064d192
-  EXCameraInterface: 6d990173e3f6355e575f44b38dcf61d0c90bc47e
-  EXConstants: 4ab8da18840ebae518e15541164fbaf7907e58c2
-  EXConstantsInterface: c60c068f94b78c8805bfeb35bd2bbaf859293de5
-  EXCore: 81304a0284b7f2e0f691b8a6bc642854e730f5e2
-  EXFaceDetectorInterface: 8727fe51fbd189a94ccd70152a25cdef913a0ae5
-  EXFileSystem: 0872826fd9ebc7d842a5e389b088c93f5b9fab88
-  EXFileSystemInterface: 8e1225e4e1776ea7abf997a7ded593b4b8e86863
-  EXFont: 5c0220788732ef1c4bfe0f5079a003b4c64add95
-  EXFontInterface: 06126ec4f6a67415426074c3383a82b241f087c1
-  EXImageLoaderInterface: 3f460f6ff344ba6c4e00621806c0d1d76249cd8f
-  EXLocalization: 1243adc132eaad4793dd7e5b497135ad5d803441
-  EXPermissions: dd31cb432c078eed1f4c1e290bc32649d5280bd3
-  EXPermissionsInterface: 76f80a0dcd16afde36498e3d3aa168cb43999558
-  EXReactNativeAdapter: 253efa069b53a6c8be7c3f2afd49ef6b4e97e902
-  EXSensorsInterface: 9e845bc03ad23a846fa6bcd4e2a60f1d0b1a6906
-  EXTaskManagerInterface: f9869b0f902ba7ccead16e0768c6dd75603163e0
+  EXBarCodeScannerInterface: 55b79df51424ac9a6bc0397064d8a558bd64eac8
+  EXCameraInterface: 3e9b11b71a7a723397409bf14cfa9835e99152fc
+  EXConstants: 1dc21bf9131e36a10c4d503c08362c2a05f70901
+  EXConstantsInterface: 33130d4140b04c0a6a998b954d3101ccc64ad6fc
+  EXCore: 19b7409c37ab41fab62b4e9cc32a94e009c2f0d8
+  EXFaceDetectorInterface: a971c54bf675edf76f8235bb0fbf5efe0a907746
+  EXFileSystem: f22ee67384473eaac20eb88f247c7c33e207bacd
+  EXFileSystemInterface: ad21786cef6012bdae23d4db96eb10429b63773b
+  EXFont: 8b90216c6d6bbe055f658ee691d12e0ab97b24a8
+  EXFontInterface: 20b4fd2a10719919a3585d37000554b3f9707060
+  EXImageLoaderInterface: a955343470cb3701b6032f8d2e33948520c494d8
+  EXLocalization: a11f157b3359b4fe099a584f757f68deaa6e6f6d
+  EXPermissions: 60dc3fcd2040650ca4e33d1819288c38a6f519ae
+  EXPermissionsInterface: d2d0887c538a14d2cf665c1707727b9a0e734dfd
+  EXReactNativeAdapter: 673eb78015f8814a37be8b9675d572cc8e9a5218
+  EXSensorsInterface: c35e76f4365a5168509c57dbdec737fa59b63a2f
+  EXTaskManagerInterface: 5599889483ed14d28a715cceaedfaafb7409b2d0
   Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
-  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
-  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+  React: adbac0757ce35e92fbd447ab98c810209d27d9b0
+  yoga: 74cdf036c30820443b25ade59916236b1e95ee93
 
-PODFILE CHECKSUM: ad0227619d5b29826312f2d3abfb784b78c540de
+PODFILE CHECKSUM: 30d959bd369aea736e86de0da48570bc0ba91209
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0

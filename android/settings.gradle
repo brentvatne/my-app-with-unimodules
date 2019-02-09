@@ -1,5 +1,5 @@
-apply from: "../node_modules/@universal-modules/react-native-platform/settings.gradle"
-useUniversalModules.apply()
+apply from: "../node_modules/@unimodules/react-native-platform/settings.gradle"
+useUnimodules.apply()
 
 rootProject.name = 'MyApp'
 

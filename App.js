@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-import { Constants } from '@universal-modules/react-native';
+import { Platform, StyleSheet, Text, ScrollView, View } from 'react-native';
+import { Constants } from '@unimodules/react-native-platform';
 import { Localization } from 'expo-localization';
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>{Localization.locale}</Text>
-        <Text>{JSON.stringify(Constants)}</Text>
-      </View>
+      <ScrollView style={{ flex: 1 }}>
+        <View style={styles.container}>
+          <Text style={styles.welcome}>Locale: {Localization.locale}</Text>
+          <Text style={styles.welcome}>
+            Fonts: {JSON.stringify(Constants)}
+          </Text>
+        </View>
+      </ScrollView>
     );
   }
 }
@@ -17,6 +21,7 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 30,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',

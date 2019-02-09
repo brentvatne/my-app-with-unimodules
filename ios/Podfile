@@ -1,5 +1,5 @@
 platform :ios, '10.0'
-require_relative '../node_modules/@universal-modules/react-native-platform/podfile-macro'
+require_relative '../node_modules/@unimodules/react-native-platform/podfile-macro'
 
 target 'MyApp' do
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
@@ -18,7 +18,7 @@ target 'MyApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  use_universal_modules!
+  use_unimodules!
   pod 'EXLocalization', path: '../node_modules/expo-localization/ios'
   pod 'EXFont', path: '../node_modules/expo-font/ios'
 
