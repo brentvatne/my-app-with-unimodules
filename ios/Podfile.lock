@@ -11,9 +11,11 @@ PODS:
   - EXConstantsInterface (2.0.0):
     - EXCore
   - EXCore (2.0.0)
+  - EXErrors (1.0.0):
+    - EXCore
   - EXFaceDetectorInterface (2.0.0):
     - EXCore
-  - EXFileSystem (2.0.1-rc.0):
+  - EXFileSystem (2.0.1-alpha.2):
     - EXCore
     - EXFileSystemInterface
   - EXFileSystemInterface (2.0.0):
@@ -91,6 +93,7 @@ DEPENDENCIES:
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - EXConstantsInterface (from `../node_modules/expo-constants-interface/ios`)
   - EXCore (from `../node_modules/expo-core/ios`)
+  - EXErrors (from `../node_modules/expo-errors/ios`)
   - EXFaceDetectorInterface (from `../node_modules/expo-face-detector-interface/ios`)
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXFileSystemInterface (from `../node_modules/expo-file-system-interface/ios`)
@@ -132,6 +135,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-constants-interface/ios"
   EXCore:
     :path: "../node_modules/expo-core/ios"
+  EXErrors:
+    :path: "../node_modules/expo-errors/ios"
   EXFaceDetectorInterface:
     :path: "../node_modules/expo-face-detector-interface/ios"
   EXFileSystem:
@@ -173,8 +178,9 @@ SPEC CHECKSUMS:
   EXConstants: 1dc21bf9131e36a10c4d503c08362c2a05f70901
   EXConstantsInterface: 33130d4140b04c0a6a998b954d3101ccc64ad6fc
   EXCore: 19b7409c37ab41fab62b4e9cc32a94e009c2f0d8
+  EXErrors: f33931b9d70d74f46d55f0716d07932acaf5b876
   EXFaceDetectorInterface: a971c54bf675edf76f8235bb0fbf5efe0a907746
-  EXFileSystem: f22ee67384473eaac20eb88f247c7c33e207bacd
+  EXFileSystem: 3a4bdd40c64cd5de23b4389a0be3e152e9c07e20
   EXFileSystemInterface: ad21786cef6012bdae23d4db96eb10429b63773b
   EXFont: 8b90216c6d6bbe055f658ee691d12e0ab97b24a8
   EXFontInterface: 20b4fd2a10719919a3585d37000554b3f9707060
