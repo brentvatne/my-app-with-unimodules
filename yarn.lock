@@ -655,12 +655,12 @@
     lodash "^4.17.4"
     react-native-vector-icons "6.0.0"
 
-"@unimodules/react-native-platform@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@unimodules/react-native-platform/-/react-native-platform-0.1.4.tgz#5a71c10a48c555d840c623e0b076acf7a1b6b31a"
-  integrity sha512-hN8x2k3viDTcacKNEqaKGs3dLfRQdioiX+51BaKo83dS0QOZQK4+P0Ab7z6338UXvyGNmJzjLD2EcM2+yZMpxg==
+"@unimodules/react-native-platform@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@unimodules/react-native-platform/-/react-native-platform-0.1.6.tgz#4916287b922e9f69f5f6e78ca40d7925215f79b9"
+  integrity sha512-nQH0tSM+BUJ9ttH5dGIYv0etxoPu9nYuqWyF4nzFOImmiYZgtHIjrKQcVJvRH9l58SdQDP0pupcGebLdJBnAmA==
   dependencies:
-    expo-asset "2.1.0-alpha.1"
+    expo-asset "2.1.0-alpha.3"
     expo-barcode-scanner-interface "~2.0.0"
     expo-camera-interface "~2.0.0"
     expo-constants "2.0.1"
@@ -1949,10 +1949,10 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-asset@2.1.0-alpha.1:
-  version "2.1.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-2.1.0-alpha.1.tgz#85300c100ab7cab3df98edcc91d9daa2059ae87f"
-  integrity sha512-3Q9MbGC1irFqJzG2b4IvHLy24pDzMAsDLHwh+lzRekDOA8X3/6qRvPJHT125zRSOGHE1LaQ0MVEs/KiJCJmBvw==
+expo-asset@2.1.0-alpha.3:
+  version "2.1.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-2.1.0-alpha.3.tgz#84a749758b26b84f6f819f215fc6c20a7f5890d5"
+  integrity sha512-IoWbOtBWxb7drO8fv4BIuNrxqq1rrq/VSL8T3MJZxSwEFOqzdVybOuKC2XTPtLkV9kPe+2BsrAuDs55DiPz0sA==
   dependencies:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
