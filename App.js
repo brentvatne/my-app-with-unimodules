@@ -7,11 +7,15 @@ import {
   ScrollView,
   View,
 } from 'react-native';
-import { Constants } from '@unimodules/react-native-platform';
+import { Ionicons } from '@expo/vector-icons';
+import { Asset } from '@unimodules/react-native-platform';
 import { Localization } from 'expo-localization';
-import { Asset } from 'expo-asset';
-import * as FileSystem from 'expo-file-system';
 import * as Font from 'expo-font';
+
+// TODO: remove scoping from expo-font when outside of Expo. Until then,
+// this preprocessor or calling `Font.processFontFamily` manually for each fontFamily
+// will be necessary, eg: `{ fontFamily: Font.processFontFamily('barcode') }`
+StyleSheet.setStyleAttributePreprocessor('fontFamily', Font.processFontFamily);
 
 export default class App extends Component {
   state = {
@@ -25,7 +29,7 @@ export default class App extends Component {
       // Cache image locally
       await Asset.fromModule(require('./image.jpg')).downloadAsync();
     } catch (e) {
-      alert(e.message);
+      alert('Uh oh! ' + e.message);
     } finally {
       this.setState({ ready: true });
     }
@@ -39,14 +43,10 @@ export default class App extends Component {
     return (
       <ScrollView style={{ flex: 1 }}>
         <View style={styles.container}>
-          <Text
-            style={[
-              styles.welcome,
-              /* Temporarily use processFontFamily because expo-font scopes fontFamily names */
-              { fontFamily: Font.processFontFamily('barcode') },
-            ]}>
+          <Text style={[styles.welcome, { fontFamily: 'barcode' }]}>
             Locale: {Localization.locale}
           </Text>
+          <Ionicons size={50} name="ios-add" />
           { /* This one will load from local cache on phone */ }
           <Image
             source={require('./image.jpg')}

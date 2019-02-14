@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^9.0.0",
-    "@unimodules/react-native-platform": "0.1.6",
-    "expo-font": "^2.0.0",
+    "@unimodules/react-native-platform": "0.1.9",
+    "expo-font": "2.1.0-alpha.2",
     "expo-localization": "^2.0.0",
     "react": "16.6.3",
     "react-native": "0.57.8"
